@@ -17,10 +17,6 @@ namespace GestionPort2
             InitializeComponent();
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnQuit_Click(object sender, EventArgs e)
         {

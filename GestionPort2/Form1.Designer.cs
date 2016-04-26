@@ -477,7 +477,6 @@
             this.label9.Size = new System.Drawing.Size(77, 13);
             this.label9.TabIndex = 23;
             this.label9.Text = "Nombre de frêt";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // txtQtFret
             // 

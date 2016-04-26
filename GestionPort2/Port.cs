@@ -14,7 +14,7 @@ namespace Navire_interface
             this._stockages = new List<Stockage>();
         }
 
-        public void Dechargement(Navire unNavire)
+        public void Dechargement(ToutNavire unNavire)
         {
             Stockage stockage;
             for (int i =0; !unNavire.estDecharge() && i < this._stockages.Count; i++)
