@@ -17,9 +17,11 @@ namespace GestionPort2 {
         public int NbNavresTotal { get; }
         public void AjouterNavire(NavireFret UnNavireFret) {
             TousLesNaviresPort.Add(UnNavireFret);
+            NavirePassager.nbNavireFret++;
         }
         public void AjouterNavire(NavirePassager UnNavirePassager) {
             TousLesNaviresPort.Add(UnNavirePassager);
+            NavirePassager.nbNavirePassager++;
         }
         public void SupprimerNavire(int i) {
             TousLesNaviresPort.RemoveAt(i);
