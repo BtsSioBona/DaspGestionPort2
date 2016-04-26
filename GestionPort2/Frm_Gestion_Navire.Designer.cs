@@ -35,45 +35,42 @@
             this.labLarg = new System.Windows.Forms.Label();
             this.labTirant = new System.Windows.Forms.Label();
             this.txtBoxNomPort = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.grpBoxPort = new System.Windows.Forms.GroupBox();
-            this.grpBoxPavPassagers = new System.Windows.Forms.GroupBox();
-            this.labNomPort = new System.Windows.Forms.Label();
-            this.btnCreerPort = new System.Windows.Forms.Button();
-            this.txtBoxFretPresent = new System.Windows.Forms.TextBox();
-            this.labFretPres = new System.Windows.Forms.Label();
-            this.txtBoxPassagPres = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtboxFretCree = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtBoxStaticPass = new System.Windows.Forms.TextBox();
+            this.numStaticPass = new System.Windows.Forms.NumericUpDown();
+            this.numFretCree = new System.Windows.Forms.NumericUpDown();
+            this.numPasspres = new System.Windows.Forms.NumericUpDown();
+            this.numFretPresent = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtBoxQtFret = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtBoxMaxPassag = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtBoxNbCabines = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnCreerNavPass = new System.Windows.Forms.Button();
-            this.btnAffectNavPass = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numNavPassInd = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labFretPres = new System.Windows.Forms.Label();
+            this.btnCreerPort = new System.Windows.Forms.Button();
+            this.labNomPort = new System.Windows.Forms.Label();
+            this.grpBoxPavPassagers = new System.Windows.Forms.GroupBox();
+            this.numCab = new System.Windows.Forms.NumericUpDown();
+            this.numChamb = new System.Windows.Forms.NumericUpDown();
+            this.numMaxPass = new System.Windows.Forms.NumericUpDown();
             this.btnRetirer = new System.Windows.Forms.Button();
+            this.numNavPassInd = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnAffectNavPass = new System.Windows.Forms.Button();
+            this.btnCreerNavPass = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.grpBoxNavFret = new System.Windows.Forms.GroupBox();
+            this.numNbFret = new System.Windows.Forms.NumericUpDown();
             this.btnRetirerPortFret = new System.Windows.Forms.Button();
+            this.numQteFret = new System.Windows.Forms.NumericUpDown();
             this.numIndNavFret = new System.Windows.Forms.NumericUpDown();
+            this.numMaxPass2 = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.btnAffectPortFret = new System.Windows.Forms.Button();
             this.btnCreerNavFret = new System.Windows.Forms.Button();
-            this.txtNbFret = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtQtFret = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtBoxMaxPassag2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.btnAfficherNav = new System.Windows.Forms.Button();
             this.listNavires = new System.Windows.Forms.ListBox();
@@ -82,12 +79,28 @@
             this.label12 = new System.Windows.Forms.Label();
             this.listNavire = new System.Windows.Forms.ListBox();
             this.btnQuit = new System.Windows.Forms.Button();
+            this.numTiantEau = new System.Windows.Forms.NumericUpDown();
+            this.numLarg = new System.Windows.Forms.NumericUpDown();
+            this.numLong = new System.Windows.Forms.NumericUpDown();
             this.grpBoxPort.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numStaticPass)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFretCree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPasspres)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFretPresent)).BeginInit();
             this.grpBoxPavPassagers.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCab)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numChamb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxPass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNavPassInd)).BeginInit();
             this.grpBoxNavFret.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numNbFret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQteFret)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numIndNavFret)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxPass2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numIndAffich)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTiantEau)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLarg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLong)).BeginInit();
             this.SuspendLayout();
             // 
             // labnLLOYD
@@ -151,27 +164,6 @@
             this.txtBoxNomPort.Size = new System.Drawing.Size(100, 20);
             this.txtBoxNomPort.TabIndex = 6;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(159, 150);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 8;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(159, 124);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 9;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(159, 98);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
-            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(159, 72);
@@ -188,13 +180,13 @@
             // 
             // grpBoxPort
             // 
-            this.grpBoxPort.Controls.Add(this.txtBoxStaticPass);
+            this.grpBoxPort.Controls.Add(this.numStaticPass);
+            this.grpBoxPort.Controls.Add(this.numFretCree);
+            this.grpBoxPort.Controls.Add(this.numPasspres);
+            this.grpBoxPort.Controls.Add(this.numFretPresent);
             this.grpBoxPort.Controls.Add(this.label4);
-            this.grpBoxPort.Controls.Add(this.txtboxFretCree);
             this.grpBoxPort.Controls.Add(this.label3);
-            this.grpBoxPort.Controls.Add(this.txtBoxPassagPres);
             this.grpBoxPort.Controls.Add(this.label2);
-            this.grpBoxPort.Controls.Add(this.txtBoxFretPresent);
             this.grpBoxPort.Controls.Add(this.labFretPres);
             this.grpBoxPort.Controls.Add(this.btnCreerPort);
             this.grpBoxPort.Controls.Add(this.labNomPort);
@@ -206,98 +198,33 @@
             this.grpBoxPort.TabStop = false;
             this.grpBoxPort.Text = "Port";
             // 
-            // grpBoxPavPassagers
+            // numStaticPass
             // 
-            this.grpBoxPavPassagers.Controls.Add(this.btnRetirer);
-            this.grpBoxPavPassagers.Controls.Add(this.numNavPassInd);
-            this.grpBoxPavPassagers.Controls.Add(this.label7);
-            this.grpBoxPavPassagers.Controls.Add(this.btnAffectNavPass);
-            this.grpBoxPavPassagers.Controls.Add(this.btnCreerNavPass);
-            this.grpBoxPavPassagers.Controls.Add(this.txtBoxNbCabines);
-            this.grpBoxPavPassagers.Controls.Add(this.label6);
-            this.grpBoxPavPassagers.Controls.Add(this.txtBoxQtFret);
-            this.grpBoxPavPassagers.Controls.Add(this.label1);
-            this.grpBoxPavPassagers.Controls.Add(this.txtBoxMaxPassag);
-            this.grpBoxPavPassagers.Controls.Add(this.label5);
-            this.grpBoxPavPassagers.Location = new System.Drawing.Point(366, 219);
-            this.grpBoxPavPassagers.Name = "grpBoxPavPassagers";
-            this.grpBoxPavPassagers.Size = new System.Drawing.Size(305, 229);
-            this.grpBoxPavPassagers.TabIndex = 14;
-            this.grpBoxPavPassagers.TabStop = false;
-            this.grpBoxPavPassagers.Text = "Navire Passagers";
+            this.numStaticPass.Location = new System.Drawing.Point(350, 121);
+            this.numStaticPass.Name = "numStaticPass";
+            this.numStaticPass.Size = new System.Drawing.Size(100, 20);
+            this.numStaticPass.TabIndex = 33;
             // 
-            // labNomPort
+            // numFretCree
             // 
-            this.labNomPort.AutoSize = true;
-            this.labNomPort.Location = new System.Drawing.Point(6, 21);
-            this.labNomPort.Name = "labNomPort";
-            this.labNomPort.Size = new System.Drawing.Size(66, 13);
-            this.labNomPort.TabIndex = 15;
-            this.labNomPort.Text = "Nom du Port";
+            this.numFretCree.Location = new System.Drawing.Point(350, 95);
+            this.numFretCree.Name = "numFretCree";
+            this.numFretCree.Size = new System.Drawing.Size(100, 20);
+            this.numFretCree.TabIndex = 32;
             // 
-            // btnCreerPort
+            // numPasspres
             // 
-            this.btnCreerPort.Location = new System.Drawing.Point(36, 45);
-            this.btnCreerPort.Name = "btnCreerPort";
-            this.btnCreerPort.Size = new System.Drawing.Size(129, 43);
-            this.btnCreerPort.TabIndex = 16;
-            this.btnCreerPort.Text = "Créer Le Port";
-            this.btnCreerPort.UseVisualStyleBackColor = true;
+            this.numPasspres.Location = new System.Drawing.Point(128, 121);
+            this.numPasspres.Name = "numPasspres";
+            this.numPasspres.Size = new System.Drawing.Size(100, 20);
+            this.numPasspres.TabIndex = 31;
             // 
-            // txtBoxFretPresent
+            // numFretPresent
             // 
-            this.txtBoxFretPresent.Location = new System.Drawing.Point(128, 95);
-            this.txtBoxFretPresent.Name = "txtBoxFretPresent";
-            this.txtBoxFretPresent.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxFretPresent.TabIndex = 16;
-            // 
-            // labFretPres
-            // 
-            this.labFretPres.AutoSize = true;
-            this.labFretPres.Location = new System.Drawing.Point(32, 98);
-            this.labFretPres.Name = "labFretPres";
-            this.labFretPres.Size = new System.Drawing.Size(90, 13);
-            this.labFretPres.TabIndex = 15;
-            this.labFretPres.Text = "Nb Frets présents";
-            // 
-            // txtBoxPassagPres
-            // 
-            this.txtBoxPassagPres.Location = new System.Drawing.Point(128, 122);
-            this.txtBoxPassagPres.Name = "txtBoxPassagPres";
-            this.txtBoxPassagPres.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxPassagPres.TabIndex = 18;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 13);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Nb Passagers présents";
-            // 
-            // txtboxFretCree
-            // 
-            this.txtboxFretCree.Location = new System.Drawing.Point(350, 95);
-            this.txtboxFretCree.Name = "txtboxFretCree";
-            this.txtboxFretCree.Size = new System.Drawing.Size(100, 20);
-            this.txtboxFretCree.TabIndex = 20;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(268, 98);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Nb Frêts créés";
-            // 
-            // txtBoxStaticPass
-            // 
-            this.txtBoxStaticPass.Location = new System.Drawing.Point(350, 122);
-            this.txtBoxStaticPass.Name = "txtBoxStaticPass";
-            this.txtBoxStaticPass.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxStaticPass.TabIndex = 22;
+            this.numFretPresent.Location = new System.Drawing.Point(128, 94);
+            this.numFretPresent.Name = "numFretPresent";
+            this.numFretPresent.Size = new System.Drawing.Size(100, 20);
+            this.numFretPresent.TabIndex = 30;
             // 
             // label4
             // 
@@ -308,87 +235,92 @@
             this.label4.TabIndex = 21;
             this.label4.Text = "Static Passager";
             // 
-            // txtBoxQtFret
+            // label3
             // 
-            this.txtBoxQtFret.Location = new System.Drawing.Point(147, 55);
-            this.txtBoxQtFret.Name = "txtBoxQtFret";
-            this.txtBoxQtFret.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxQtFret.TabIndex = 22;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(268, 98);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Nb Frêts créés";
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Nombre Chambrres";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(116, 13);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Nb Passagers présents";
             // 
-            // txtBoxMaxPassag
+            // labFretPres
             // 
-            this.txtBoxMaxPassag.Location = new System.Drawing.Point(147, 28);
-            this.txtBoxMaxPassag.Name = "txtBoxMaxPassag";
-            this.txtBoxMaxPassag.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxMaxPassag.TabIndex = 20;
+            this.labFretPres.AutoSize = true;
+            this.labFretPres.Location = new System.Drawing.Point(32, 98);
+            this.labFretPres.Name = "labFretPres";
+            this.labFretPres.Size = new System.Drawing.Size(90, 13);
+            this.labFretPres.TabIndex = 15;
+            this.labFretPres.Text = "Nb Frets présents";
             // 
-            // label5
+            // btnCreerPort
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 31);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 13);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Nb Maxi Passagers";
+            this.btnCreerPort.Location = new System.Drawing.Point(36, 45);
+            this.btnCreerPort.Name = "btnCreerPort";
+            this.btnCreerPort.Size = new System.Drawing.Size(129, 43);
+            this.btnCreerPort.TabIndex = 16;
+            this.btnCreerPort.Text = "Créer Le Port";
+            this.btnCreerPort.UseVisualStyleBackColor = true;
+            this.btnCreerPort.Click += new System.EventHandler(this.btnCreerPort_Click);
             // 
-            // txtBoxNbCabines
+            // labNomPort
             // 
-            this.txtBoxNbCabines.Location = new System.Drawing.Point(147, 82);
-            this.txtBoxNbCabines.Name = "txtBoxNbCabines";
-            this.txtBoxNbCabines.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxNbCabines.TabIndex = 24;
+            this.labNomPort.AutoSize = true;
+            this.labNomPort.Location = new System.Drawing.Point(6, 21);
+            this.labNomPort.Name = "labNomPort";
+            this.labNomPort.Size = new System.Drawing.Size(66, 13);
+            this.labNomPort.TabIndex = 15;
+            this.labNomPort.Text = "Nom du Port";
             // 
-            // label6
+            // grpBoxPavPassagers
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(42, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "Nombre Cabines";
+            this.grpBoxPavPassagers.Controls.Add(this.numCab);
+            this.grpBoxPavPassagers.Controls.Add(this.numChamb);
+            this.grpBoxPavPassagers.Controls.Add(this.numMaxPass);
+            this.grpBoxPavPassagers.Controls.Add(this.btnRetirer);
+            this.grpBoxPavPassagers.Controls.Add(this.numNavPassInd);
+            this.grpBoxPavPassagers.Controls.Add(this.label7);
+            this.grpBoxPavPassagers.Controls.Add(this.btnAffectNavPass);
+            this.grpBoxPavPassagers.Controls.Add(this.btnCreerNavPass);
+            this.grpBoxPavPassagers.Controls.Add(this.label6);
+            this.grpBoxPavPassagers.Controls.Add(this.label1);
+            this.grpBoxPavPassagers.Controls.Add(this.label5);
+            this.grpBoxPavPassagers.Location = new System.Drawing.Point(366, 219);
+            this.grpBoxPavPassagers.Name = "grpBoxPavPassagers";
+            this.grpBoxPavPassagers.Size = new System.Drawing.Size(305, 229);
+            this.grpBoxPavPassagers.TabIndex = 14;
+            this.grpBoxPavPassagers.TabStop = false;
+            this.grpBoxPavPassagers.Text = "Navire Passagers";
             // 
-            // btnCreerNavPass
+            // numCab
             // 
-            this.btnCreerNavPass.Location = new System.Drawing.Point(12, 118);
-            this.btnCreerNavPass.Name = "btnCreerNavPass";
-            this.btnCreerNavPass.Size = new System.Drawing.Size(129, 26);
-            this.btnCreerNavPass.TabIndex = 23;
-            this.btnCreerNavPass.Text = "Créer navire Passager";
-            this.btnCreerNavPass.UseVisualStyleBackColor = true;
+            this.numCab.Location = new System.Drawing.Point(147, 81);
+            this.numCab.Name = "numCab";
+            this.numCab.Size = new System.Drawing.Size(100, 20);
+            this.numCab.TabIndex = 34;
             // 
-            // btnAffectNavPass
+            // numChamb
             // 
-            this.btnAffectNavPass.Location = new System.Drawing.Point(147, 118);
-            this.btnAffectNavPass.Name = "btnAffectNavPass";
-            this.btnAffectNavPass.Size = new System.Drawing.Size(129, 26);
-            this.btnAffectNavPass.TabIndex = 25;
-            this.btnAffectNavPass.Text = "Affecter au Port";
-            this.btnAffectNavPass.UseVisualStyleBackColor = true;
+            this.numChamb.Location = new System.Drawing.Point(147, 54);
+            this.numChamb.Name = "numChamb";
+            this.numChamb.Size = new System.Drawing.Size(100, 20);
+            this.numChamb.TabIndex = 35;
             // 
-            // label7
+            // numMaxPass
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(36, 166);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 13);
-            this.label7.TabIndex = 26;
-            this.label7.Text = "Indice à supprimer";
-            // 
-            // numNavPassInd
-            // 
-            this.numNavPassInd.Location = new System.Drawing.Point(142, 164);
-            this.numNavPassInd.Name = "numNavPassInd";
-            this.numNavPassInd.Size = new System.Drawing.Size(27, 20);
-            this.numNavPassInd.TabIndex = 28;
+            this.numMaxPass.Location = new System.Drawing.Point(147, 29);
+            this.numMaxPass.Name = "numMaxPass";
+            this.numMaxPass.Size = new System.Drawing.Size(100, 20);
+            this.numMaxPass.TabIndex = 36;
             // 
             // btnRetirer
             // 
@@ -399,18 +331,79 @@
             this.btnRetirer.Text = "Retirer du Port";
             this.btnRetirer.UseVisualStyleBackColor = true;
             // 
+            // numNavPassInd
+            // 
+            this.numNavPassInd.Location = new System.Drawing.Point(142, 164);
+            this.numNavPassInd.Name = "numNavPassInd";
+            this.numNavPassInd.Size = new System.Drawing.Size(27, 20);
+            this.numNavPassInd.TabIndex = 28;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(36, 166);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(93, 13);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "Indice à supprimer";
+            // 
+            // btnAffectNavPass
+            // 
+            this.btnAffectNavPass.Location = new System.Drawing.Point(147, 118);
+            this.btnAffectNavPass.Name = "btnAffectNavPass";
+            this.btnAffectNavPass.Size = new System.Drawing.Size(129, 26);
+            this.btnAffectNavPass.TabIndex = 25;
+            this.btnAffectNavPass.Text = "Affecter au Port";
+            this.btnAffectNavPass.UseVisualStyleBackColor = true;
+            // 
+            // btnCreerNavPass
+            // 
+            this.btnCreerNavPass.Location = new System.Drawing.Point(12, 118);
+            this.btnCreerNavPass.Name = "btnCreerNavPass";
+            this.btnCreerNavPass.Size = new System.Drawing.Size(129, 26);
+            this.btnCreerNavPass.TabIndex = 23;
+            this.btnCreerNavPass.Text = "Créer navire Passager";
+            this.btnCreerNavPass.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(42, 85);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Nombre Cabines";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(40, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 13);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Nombre Chambres";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(40, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 13);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Nb Maxi Passagers";
+            // 
             // grpBoxNavFret
             // 
+            this.grpBoxNavFret.Controls.Add(this.numNbFret);
             this.grpBoxNavFret.Controls.Add(this.btnRetirerPortFret);
+            this.grpBoxNavFret.Controls.Add(this.numQteFret);
             this.grpBoxNavFret.Controls.Add(this.numIndNavFret);
+            this.grpBoxNavFret.Controls.Add(this.numMaxPass2);
             this.grpBoxNavFret.Controls.Add(this.label8);
             this.grpBoxNavFret.Controls.Add(this.btnAffectPortFret);
             this.grpBoxNavFret.Controls.Add(this.btnCreerNavFret);
-            this.grpBoxNavFret.Controls.Add(this.txtNbFret);
             this.grpBoxNavFret.Controls.Add(this.label9);
-            this.grpBoxNavFret.Controls.Add(this.txtQtFret);
             this.grpBoxNavFret.Controls.Add(this.label10);
-            this.grpBoxNavFret.Controls.Add(this.txtBoxMaxPassag2);
             this.grpBoxNavFret.Controls.Add(this.label11);
             this.grpBoxNavFret.Location = new System.Drawing.Point(39, 219);
             this.grpBoxNavFret.Name = "grpBoxNavFret";
@@ -418,6 +411,13 @@
             this.grpBoxNavFret.TabIndex = 30;
             this.grpBoxNavFret.TabStop = false;
             this.grpBoxNavFret.Text = "Navire Frêt";
+            // 
+            // numNbFret
+            // 
+            this.numNbFret.Location = new System.Drawing.Point(147, 83);
+            this.numNbFret.Name = "numNbFret";
+            this.numNbFret.Size = new System.Drawing.Size(100, 20);
+            this.numNbFret.TabIndex = 37;
             // 
             // btnRetirerPortFret
             // 
@@ -428,12 +428,26 @@
             this.btnRetirerPortFret.Text = "Retirer du Port";
             this.btnRetirerPortFret.UseVisualStyleBackColor = true;
             // 
+            // numQteFret
+            // 
+            this.numQteFret.Location = new System.Drawing.Point(147, 56);
+            this.numQteFret.Name = "numQteFret";
+            this.numQteFret.Size = new System.Drawing.Size(100, 20);
+            this.numQteFret.TabIndex = 38;
+            // 
             // numIndNavFret
             // 
             this.numIndNavFret.Location = new System.Drawing.Point(142, 164);
             this.numIndNavFret.Name = "numIndNavFret";
             this.numIndNavFret.Size = new System.Drawing.Size(27, 20);
             this.numIndNavFret.TabIndex = 28;
+            // 
+            // numMaxPass2
+            // 
+            this.numMaxPass2.Location = new System.Drawing.Point(147, 31);
+            this.numMaxPass2.Name = "numMaxPass2";
+            this.numMaxPass2.Size = new System.Drawing.Size(100, 20);
+            this.numMaxPass2.TabIndex = 39;
             // 
             // label8
             // 
@@ -462,13 +476,6 @@
             this.btnCreerNavFret.Text = "Créer navire Frêt";
             this.btnCreerNavFret.UseVisualStyleBackColor = true;
             // 
-            // txtNbFret
-            // 
-            this.txtNbFret.Location = new System.Drawing.Point(147, 86);
-            this.txtNbFret.Name = "txtNbFret";
-            this.txtNbFret.Size = new System.Drawing.Size(100, 20);
-            this.txtNbFret.TabIndex = 24;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -478,13 +485,6 @@
             this.label9.TabIndex = 23;
             this.label9.Text = "Nombre de frêt";
             // 
-            // txtQtFret
-            // 
-            this.txtQtFret.Location = new System.Drawing.Point(147, 55);
-            this.txtQtFret.Name = "txtQtFret";
-            this.txtQtFret.Size = new System.Drawing.Size(100, 20);
-            this.txtQtFret.TabIndex = 22;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -493,13 +493,6 @@
             this.label10.Size = new System.Drawing.Size(68, 13);
             this.label10.TabIndex = 21;
             this.label10.Text = "Quantité Frêt";
-            // 
-            // txtBoxMaxPassag2
-            // 
-            this.txtBoxMaxPassag2.Location = new System.Drawing.Point(147, 28);
-            this.txtBoxMaxPassag2.Name = "txtBoxMaxPassag2";
-            this.txtBoxMaxPassag2.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxMaxPassag2.TabIndex = 20;
             // 
             // label11
             // 
@@ -570,13 +563,37 @@
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
+            // numTiantEau
+            // 
+            this.numTiantEau.Location = new System.Drawing.Point(159, 152);
+            this.numTiantEau.Name = "numTiantEau";
+            this.numTiantEau.Size = new System.Drawing.Size(100, 20);
+            this.numTiantEau.TabIndex = 37;
+            // 
+            // numLarg
+            // 
+            this.numLarg.Location = new System.Drawing.Point(159, 125);
+            this.numLarg.Name = "numLarg";
+            this.numLarg.Size = new System.Drawing.Size(100, 20);
+            this.numLarg.TabIndex = 38;
+            // 
+            // numLong
+            // 
+            this.numLong.Location = new System.Drawing.Point(159, 99);
+            this.numLong.Name = "numLong";
+            this.numLong.Size = new System.Drawing.Size(100, 20);
+            this.numLong.TabIndex = 39;
+            // 
             // Frm_Gestion_Navire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1071, 600);
+            this.Controls.Add(this.numTiantEau);
             this.Controls.Add(this.btnQuit);
+            this.Controls.Add(this.numLarg);
             this.Controls.Add(this.listNavire);
+            this.Controls.Add(this.numLong);
             this.Controls.Add(this.btnAfficherCeNav);
             this.Controls.Add(this.numIndAffich);
             this.Controls.Add(this.listNavires);
@@ -587,9 +604,6 @@
             this.Controls.Add(this.grpBoxPort);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.labLarg);
             this.Controls.Add(this.labTirant);
             this.Controls.Add(this.labPavillon);
@@ -600,13 +614,26 @@
             this.Text = "Frm_Gestion_Navire";
             this.grpBoxPort.ResumeLayout(false);
             this.grpBoxPort.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numStaticPass)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFretCree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPasspres)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFretPresent)).EndInit();
             this.grpBoxPavPassagers.ResumeLayout(false);
             this.grpBoxPavPassagers.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCab)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numChamb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNavPassInd)).EndInit();
             this.grpBoxNavFret.ResumeLayout(false);
             this.grpBoxNavFret.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numNbFret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQteFret)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numIndNavFret)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numMaxPass2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numIndAffich)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTiantEau)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLarg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numLong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -621,28 +648,18 @@
         private System.Windows.Forms.Label labLarg;
         private System.Windows.Forms.Label labTirant;
         private System.Windows.Forms.TextBox txtBoxNomPort;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.GroupBox grpBoxPort;
         private System.Windows.Forms.GroupBox grpBoxPavPassagers;
         private System.Windows.Forms.Label labNomPort;
-        private System.Windows.Forms.TextBox txtBoxStaticPass;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtboxFretCree;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtBoxPassagPres;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtBoxFretPresent;
         private System.Windows.Forms.Label labFretPres;
         private System.Windows.Forms.Button btnCreerPort;
-        private System.Windows.Forms.TextBox txtBoxNbCabines;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtBoxQtFret;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtBoxMaxPassag;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRetirer;
         private System.Windows.Forms.NumericUpDown numNavPassInd;
@@ -655,11 +672,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnAffectPortFret;
         private System.Windows.Forms.Button btnCreerNavFret;
-        private System.Windows.Forms.TextBox txtNbFret;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtQtFret;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtBoxMaxPassag2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnAfficherNav;
         private System.Windows.Forms.ListBox listNavires;
@@ -668,6 +682,19 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ListBox listNavire;
         private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.NumericUpDown numStaticPass;
+        private System.Windows.Forms.NumericUpDown numFretCree;
+        private System.Windows.Forms.NumericUpDown numPasspres;
+        private System.Windows.Forms.NumericUpDown numFretPresent;
+        private System.Windows.Forms.NumericUpDown numCab;
+        private System.Windows.Forms.NumericUpDown numChamb;
+        private System.Windows.Forms.NumericUpDown numMaxPass;
+        private System.Windows.Forms.NumericUpDown numNbFret;
+        private System.Windows.Forms.NumericUpDown numQteFret;
+        private System.Windows.Forms.NumericUpDown numMaxPass2;
+        private System.Windows.Forms.NumericUpDown numTiantEau;
+        private System.Windows.Forms.NumericUpDown numLarg;
+        private System.Windows.Forms.NumericUpDown numLong;
     }
 }
 

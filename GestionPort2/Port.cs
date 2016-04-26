@@ -11,7 +11,7 @@ namespace GestionPort2 {
         private string nomPort;
         private int nbNavireFret;
         private int nbNavirePassagers;
-        //public string nomPort;
+        public string NomPort;
         public int NbNavireFret { get; }
         public int NbNavirePassagers { get; }
         public int NbNavresTotal { get; }

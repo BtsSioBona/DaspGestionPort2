@@ -22,5 +22,12 @@ namespace GestionPort2
         {
             Application.Exit();
         }
+
+        private void btnCreerPort_Click(object sender, EventArgs e) {
+            Port port = new Port();
+            port.NomPort = txtBoxNomPort.Text;
+            port.NbNavireFret() = txtBoxFretPresent.
+        }
+
     }
 }
