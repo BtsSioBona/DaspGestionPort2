@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GestionPort2
 {
-    public partial class Form1 : Form
+    public partial class Frm_Gestion_Navire : Form
     {
-        public Form1()
+        public Frm_Gestion_Navire()
         {
             InitializeComponent();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

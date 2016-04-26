@@ -1,1 +1,9 @@
 c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\bin\Debug\GestionPort2.exe.config
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.csprojResolveAssemblyReference.cache
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.Frm_Gestion_Navire.resources
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.Properties.Resources.resources
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.csproj.GenerateResource.Cache
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\bin\Debug\GestionPort2.exe
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\bin\Debug\GestionPort2.pdb
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.exe
+c:\users\rahmane.a\documents\visual studio 2015\Projects\GestionPort2\GestionPort2\obj\Debug\GestionPort2.pdb
