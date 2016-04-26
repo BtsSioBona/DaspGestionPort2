@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Navire_interface
-{
+namespace GestionPort2 {
     public abstract class ToutNavire
     {
-        protected string noLloyds;
+        protected int noLloyds;
         protected string nomNavire;
         protected string pavillon;
         protected int longueur;
@@ -16,7 +15,7 @@ namespace Navire_interface
         protected int tirantEau;
         
 
-        public ToutNavire(string noLloyds, string nomNavire, string pavillon, int longueur, int largeur, int tirantEau) {
+        public ToutNavire(int noLloyds, string nomNavire, string pavillon, int longueur, int largeur, int tirantEau) {
             this.noLloyds = noLloyds;
             this.nomNavire = nomNavire;
             this.pavillon = pavillon;

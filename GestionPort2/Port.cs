@@ -1,48 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Navire_interface
-{
-    public class Port
-    {
-        private List<Stockage> _stockages;
-        public Port()
-        {
-            this._stockages = new List<Stockage>();
+namespace GestionPort2 {
+    public class Port {
+        private Collection<ToutNavire> TousLesNaviresPort;
+        private string nomPort;
+        private int nbNavireFret;
+        private int nbNavirePassagers;
+        //public string nomPort;
+        public int NbNavireFret { get; }
+        public int NbNavirePassagers { get; }
+        public int NbNavresTotal { get; }
+        public void AjouterNavire(NavireFret UnNavireFret) { 
+            NavireFret navire = new NavireFret();
         }
+        public void AjouterNavire(NavirePassager UnNavirePassager) {
 
-        public void Dechargement(ToutNavire unNavire)
-        {
-            Stockage stockage;
-            for (int i =0; !unNavire.estDecharge() && i < this._stockages.Count; i++)
-            {
-                stockage = this._stockages[i];
-                if(unNavire.QteFret >= stockage.CapaDispo)
-                {
-                    unNavire.Decharger(stockage.CapaDispo);
-                    stockage.Stocker(stockage.CapaDispo);
-                }
-                else
-                {
-                    stockage.Stocker(stockage.CapaDispo - unNavire.QteFret);
-                    unNavire.Decharger(unNavire.QteFret);
-                }
-            }
-            if (unNavire.QteFret > 0)
-                throw new Exception("La navire n'a pu être déchargé, il reste " + unNavire.QteFret + " à décharger");
-        }
-
-        public void AddStockage(int capaTotal)
-        {
-            this._stockages.Add(new Stockage(capaTotal));
-        }
-
-        public List<Stockage> Stockages
-        {
-            get { return this._stockages; }
         }
     }
 }
