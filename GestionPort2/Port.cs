@@ -21,5 +21,11 @@ namespace GestionPort2 {
         public void AjouterNavire(NavirePassager UnNavirePassager) {
             TousLesNaviresPort.Add(UnNavirePassager);
         }
+        public void SupprimerNavire(int i) {
+            TousLesNaviresPort.RemoveAt(i);
+        }
+        public ToutNavire ExtraireNavire(int i) {
+            return TousLesNaviresPort.ElementAt(i);
+        }
     }
 }
