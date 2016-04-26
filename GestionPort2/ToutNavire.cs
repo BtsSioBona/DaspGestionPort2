@@ -8,12 +8,12 @@ namespace Navire_interface
 {
     public abstract class ToutNavire
     {
-        private string noLloyds;
-        private string nomNavire;
-        private string pavillon;
-        private int longueur;
-        private int largeur;
-        private int tirantEau;
+        protected string noLloyds;
+        protected string nomNavire;
+        protected string pavillon;
+        protected int longueur;
+        protected int largeur;
+        protected int tirantEau;
         
 
         public ToutNavire(string noLloyds, string nomNavire, string pavillon, int longueur, int largeur, int tirantEau) {
@@ -23,6 +23,9 @@ namespace Navire_interface
             this.longueur = longueur;
             this.largeur = largeur;
             this.tirantEau = tirantEau;
+        }
+
+        public ToutNavire() {
         }
 
         public int NoLloyds { get; set; }
