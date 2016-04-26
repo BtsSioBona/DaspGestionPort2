@@ -569,6 +569,7 @@
             this.btnQuit.TabIndex = 34;
             this.btnQuit.Text = "Quitter";
             this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // Frm_Gestion_Navire
             // 

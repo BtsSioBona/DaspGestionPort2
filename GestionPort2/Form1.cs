@@ -21,5 +21,10 @@ namespace GestionPort2
         {
 
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
