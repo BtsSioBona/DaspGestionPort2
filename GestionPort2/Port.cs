@@ -15,11 +15,11 @@ namespace GestionPort2 {
         public int NbNavireFret { get; }
         public int NbNavirePassagers { get; }
         public int NbNavresTotal { get; }
-        public void AjouterNavire(NavireFret UnNavireFret) { 
-            NavireFret navire = new NavireFret();
+        public void AjouterNavire(NavireFret UnNavireFret) {
+            TousLesNaviresPort.Add(UnNavireFret);
         }
         public void AjouterNavire(NavirePassager UnNavirePassager) {
-
+            TousLesNaviresPort.Add(UnNavirePassager);
         }
     }
 }
